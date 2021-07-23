@@ -4,3 +4,10 @@ public
 
 # Mac files
 .DS_Store
+
+# csscomb
+csscomb.json
+
+# Prettier
+.prettierignore
+.prettierrc
