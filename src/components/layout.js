@@ -21,7 +21,9 @@ const Layout = ({ pageTitle, children }) => {
   `)
   return (
     <main className={container}>
-      <title>{pageTitle} | {data.site.siteMetadata.title}</title>
+      <title>
+        {pageTitle} | {data.site.siteMetadata.title}
+      </title>
       <p className={siteTitle}>{data.site.siteMetadata.title}</p>
       <nav>
         <ul className={navLinks}>
@@ -40,12 +42,17 @@ const Layout = ({ pageTitle, children }) => {
               Blog
             </Link>
           </li>
+          <li className={navLinkItem}>
+            <Link to="/contact" className={navLinkText}>
+              Contact
+            </Link>
+          </li>
         </ul>
       </nav>
       <h1 className={heading}>{pageTitle}</h1>
       {children}
     </main>
-  )
+  );
 }
 
 export default Layout
