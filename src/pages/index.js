@@ -6,10 +6,14 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
       <p>I'm making this by following the Gatsby Tutorial.</p>
-      <StaticImage
-        alt="1"
-        src="../images/1.png"
-      />
+      <p>
+        ソースはgithubにあります。
+        <br />
+        <a href="https://github.com/ktsnkmr/from-room-401">
+          https://github.com/ktsnkmr/from-room-401
+        </a>
+      </p>
+      <StaticImage alt="1" src="../images/1.png" />
     </Layout>
   );
 };
