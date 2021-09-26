@@ -9,8 +9,8 @@ const IndexPage = () => {
       <p>
         ソースはgithubにあります。
         <br />
-        <a href="https://github.com/ktsnkmr/from-room-401">
-          https://github.com/ktsnkmr/from-room-401
+        <a href="https://github.com/ktsnkmrcom/from-room-401">
+          https://github.com/ktsnkmrcom/from-room-401
         </a>
       </p>
       <StaticImage alt="1" src="../images/1.png" />
